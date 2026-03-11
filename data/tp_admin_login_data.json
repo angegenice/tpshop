@@ -1,0 +1,21 @@
+{
+    "管理员登录密码错误":{
+        "username":"admin",
+        "password":"1234561",
+        "code":"8888",
+        "expect": "账号密码不正确"
+    },
+    "管理员登录密验证码错误":{
+        "username":"admin",
+        "password":"123456",
+        "code":"88888",
+        "expect": "验证码错误"
+    },
+    "管理员登录成功":{
+        "username":"admin",
+        "password":"123456",
+        "code":"8888",
+        "expect": ""
+    }
+
+}

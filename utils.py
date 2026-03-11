@@ -28,7 +28,7 @@ class DriverUtils:
     def quit_driver(cls):
         """关闭浏览器对象"""
         if cls.__driver is not None:
-            time.sleep(2)
+            time.sleep(1)
             cls.__driver.quit()
             # 设为空
             cls.__driver = None
